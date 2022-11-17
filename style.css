@@ -1,0 +1,66 @@
+li a{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 40px;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #E4E2E1;
+    text-align: right;
+}
+
+li a:hover{
+    color: #AAA9A8;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+#btn3{ 
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 450px;
+    color: #2A9D8F;
+}
+
+#btn3:hover{
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10),0 10px 40px 0 rgba(0,0,0,0.19);
+
+}
+
+#btn1{
+    background-color: #2A9D8F; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#btn1:hover {
+    border: 1px solid #2A9D8F; 
+    border-color: #2A9D8F;
+    background-color: white;
+    color: #2A9D8F;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10),0 10px 40px 0 rgba(0,0,0,0.19);
+  }
+#brand{
+    margin-left: 10 px;
+    color: #2A9D8F;
+}
