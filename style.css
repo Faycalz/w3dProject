@@ -41,6 +41,7 @@ li a:hover{
 
 #btn3:hover{
     padding: 8px 16px;
+    border: 1px solid #ffffff46; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -124,6 +125,7 @@ li a:hover{
     box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10),0 10px 40px 0 rgba(0,0,0,0.19);
     background-color: #2A9D8F !important;
     color: #eeeeee !important;
+    border: 1px solid #eeeeee;
     
   }
 
