@@ -213,8 +213,6 @@ li a:hover{
         justify-content: center;
         background-color:#fff;
         overflow-x: hidden;
-        
-        font-family: var(--text-font);
     }
     
     
@@ -236,6 +234,7 @@ li a:hover{
         align-items: center;
         flex-direction: column;
     }
+
     /* cards */
     .cards {
     
@@ -337,33 +336,29 @@ li a:hover{
         font-weight: 500;
         transition: all .7s ease;
     }
-    
+    /* go to buttons */
     .button{
         width: 180px;
         height: 90px;
         margin: 0 35px;
         border: none;
         outline: none;
-        border-radius: 30px;
-        color: var(--white);
+        border-radius: 15px;
+        background-color: #2A9D8F; 
+        color: white;
         font-size: 20px;
+        text-decoration: none;
         letter-spacing: 3px;
         font-weight:bold;
         text-transform: uppercase;
         cursor:pointer;
-    }
-    /* physics button */
-    .buttons #first{
-        background-color: #2A9D8F; 
-        color: white;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
         display: inline-block;
-        margin: 4px 2px;
         transition-duration: 0.4s;
+        text-align: center;
+        
     }
-    .buttons #first:hover  {
+
+    .button:hover  {
         border: 2px solid #2A9D8F; 
         border-color: #2A9D8F;
         background-color: white;
@@ -372,37 +367,13 @@ li a:hover{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        
-        margin: 4px 2px;
         box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10),0 10px 40px 0 rgba(0,0,0,0.19);
       }
-      /* chemistry button */
-    .buttons #second{
-        background-color:#e76f51; 
-        color: white;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
-    }
-    .buttons #second:hover  {
-        border: 2px solid #e76f51; 
-        border-color:#e76f51;
-        background-color: white;
-        color: #e76f51;
-        padding: 8px 16px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        
-        margin: 4px 2px;
-        box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10),0 10px 40px 0 rgba(0,0,0,0.19);
-      }
+ 
     /* titels */
     .go-to, .announcement{
         
+        align-items: center;
         margin-top: 50px;
         color: #2A9D8F;
         font-size: 50px;
@@ -410,6 +381,9 @@ li a:hover{
         padding-bottom: 40px;
     }
     
+    #GOTO{
+        padding-bottom: 150px;
+    }
     
     /* cards */
     
